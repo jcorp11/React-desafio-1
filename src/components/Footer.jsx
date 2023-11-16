@@ -3,11 +3,11 @@ const Footer = () => {
     <footer style={styles.footer}>
       <div style={styles.container}>
         <p>
-          Explora nuestra galeria de adopcion de perros para encontrar a tu
-          companero perfecto. Tenemos una varieadad de perros con diferentes
+          Explora nuestra galería de adopción de perros para encontrar a tu
+          compañero perfecto. Tenemos una variedad de perros con diferentes
           personalidades y tamaños, todos en busca de un hogar amoroso. Cada
-          imagen capturasu esencia unica. Adopta un perro y brindale una segunda
-          oportunidad. Encuentra a tu companero peludo para siempre
+          imagen captura su esencia única. Adopta un perro y brindale una
+          segunda oportunidad. Encuentra a tu compañero peludo para siempre.
         </p>
       </div>
     </footer>

@@ -34,8 +34,8 @@ p {
   gap: 1rem; */
   flex-grow: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(231px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(231px, 1fr));
+  gap: 1rem;
   justify-content: center;
   justify-items: center;
 }
