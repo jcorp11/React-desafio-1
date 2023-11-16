@@ -1,0 +1,15 @@
+:root {
+  --border: 1px solid rgba(190, 166, 166, 0.7);
+}
+
+.card {
+  width: min(250px, 25%);
+  padding: 1.5rem;
+  border: var(--border);
+  border-radius: 5px;
+  && img {
+    width: 100%;
+    border: var(--border);
+    border-radius: 5px;
+  }
+}
