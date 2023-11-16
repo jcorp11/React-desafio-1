@@ -3,7 +3,7 @@
 }
 
 .card {
-  width: min(250px, 25%);
+  width: min(230px, 25%);
   padding: 1.5rem;
   border: var(--border);
   border-radius: 5px;

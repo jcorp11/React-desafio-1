@@ -1,5 +1,6 @@
 import "./App.css";
 import "./normalize.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import MyCard from "./components/MyCard";
 import cardArray from "./assets/data";
@@ -11,11 +12,6 @@ function App() {
     <>
       <Header title="Adopta un Perrito" />
       <section className="cardContainer">
-        <MyCard
-          image="https://placedog.net/300/300"
-          name="Max"
-          desc="El mejor perrito de todos los tiempos"
-        />
         {cardArray.map((card) => {
           return (
             <MyCard
@@ -23,6 +19,8 @@ function App() {
               image={card.image}
               name={card.name}
               desc={card.desc}
+              bg={card.bg}
+              text={card.text}
             />
           );
         })}
