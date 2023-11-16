@@ -1,13 +1,12 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./normalize.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import MyCard from "./components/MyCard";
 import cardArray from "./assets/data";
+import Footer from "./components/Footer";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       <Header title="Adopta un Perrito" />
@@ -15,16 +14,19 @@ function App() {
         {cardArray.map((card) => {
           return (
             <MyCard
-              key={card.id}
-              image={card.image}
-              name={card.name}
-              desc={card.desc}
-              bg={card.bg}
-              text={card.text}
+              // key={card.id}
+              // image={card.image}
+              // name={card.name}
+              // desc={card.desc}
+              // bg={card.bg}
+              // text={card.text}
+              {...card}
             />
           );
         })}
       </section>
+
+      <Footer />
     </>
   );
 }

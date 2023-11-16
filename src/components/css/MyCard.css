@@ -4,12 +4,22 @@
 
 .card {
   width: min(230px, 25%);
+  height: 410px;
   padding: 1.5rem;
   border: var(--border);
   border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   && img {
     width: 100%;
     border: var(--border);
     border-radius: 5px;
   }
+}
+
+.desc {
+  font-size: 0.8rem;
+  height: 96px;
 }
