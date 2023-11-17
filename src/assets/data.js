@@ -33,11 +33,11 @@ const cardArray = [
   },
   {
     id: 5,
-    image: "https://placedog.net/300/300?id=44",
-    name: "Princesa",
+    image: "https://placedog.net/300/300?id=46",
+    name: "Phoebe",
     desc: "Es una compañera leal y cariñosa que adora los mimos y los abrazos. Ayuda a Princesa a encontrar su final feliz!",
-    bg: "warning",
-    text: "Beagle",
+    bg: "secondary",
+    text: "Bull Dog",
   },
 ];
 
